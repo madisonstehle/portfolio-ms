@@ -1,11 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Navbar from './components/Navbar.js';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import Projects from './pages/Projects.js';
+import Contact from './pages/ContactMe.js';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+
+        <Route exact path='/'>
+          <Home />
+        </Route>
+
+        <Route exact path='/about'>
+          <About />
+        </Route>
+
+        <Route exact path='/projects'>
+          <Projects />
+        </Route>
+
+        <Route exact path='/contact'>
+          <Contact />
+        </Route>
+
+      </div>
+    </Router>
   );
 }
 
