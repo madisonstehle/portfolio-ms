@@ -1,11 +1,39 @@
 [
     {
-        "displayName": "Dungeon Scribe"
+        "img": "https://via.placeholder.com/100x50",
+        "altText": "altText",
+        "name": "whaleFinder",
+        "displayName": "Whale Finder",
+        "description": "description",
+        "repoURL": "https://github.com/a-magical-childhood/whales",
+        "deployedURL": "deployedURL"
     },
     {
-        "displayName": "D&D Scribe"
+        "img": "https://via.placeholder.com/100x50",
+        "altText": "altText",
+        "name": "dungeonScribe",
+        "displayName": "Dungeon Scribe",
+        "description": "description",
+        "repoURL": "https://github.com/Dungeons-Developers/DnD-React",
+        "deployedURL": "https://www.dungeonscribe.io/"
     },
     {
-        "displayName": "Selfu"
+        "img": "https://via.placeholder.com/100x50",
+        "altText": "altText",
+        "name": "dndScribe",
+        "displayName": "D&D Scribe",
+        "description": "description",
+        "repoURL": "https://github.com/Dungeons-Developers/DnD-client",
+        "deployedURL": "",
+        "npmPackage": "https://www.npmjs.com/package/dnd-scribe"
+    },
+    {
+        "img": "https://via.placeholder.com/100x50",
+        "altText": "altText",
+        "name": "selfu",
+        "displayName": "Selfu",
+        "description": "description",
+        "repoURL": "https://github.com/Team-2TMK/selfu",
+        "deployedURL": "https://selfu-codefellows.herokuapp.com/"
     }
 ]
