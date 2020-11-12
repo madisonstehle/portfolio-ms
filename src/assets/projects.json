@@ -2,9 +2,18 @@
     {
         "img": "https://via.placeholder.com/100x50",
         "altText": "altText",
-        "name": "whaleFinder",
-        "displayName": "Whale Finder",
-        "description": "description",
+        "name": "aMagicalChildhood",
+        "displayName": "A Magical Childhood",
+        "description": "A mobile app that allows the user to view magical creature sightings on their native smartphone map and  send in sightings of their own. Built with a sqlLite, Python backend and a React Native frontend. This app is in the process of being published in the Google Play Store as well as the Apple App Store.",
+        "repoURL": "https://github.com/a-magical-childhood/find-the-magic",
+        "deployedURL": "deployedURL"
+    },
+    {
+        "img": "https://via.placeholder.com/100x50",
+        "altText": "altText",
+        "name": "whereAreTheWhales",
+        "displayName": "Where Are The Whales?",
+        "description": "A mobile app that allows users to see recent whale sightings close to their current location. Using the Whale Museum api, users can see local and recent whale sightings, donate directly to the Whale Museum, and report a sighting of their own. This app is in the process of being published in the Google Play Store as well as the Apple App Store.",
         "repoURL": "https://github.com/a-magical-childhood/whales",
         "deployedURL": "deployedURL"
     },
@@ -13,7 +22,7 @@
         "altText": "altText",
         "name": "dungeonScribe",
         "displayName": "Dungeon Scribe",
-        "description": "description",
+        "description": "A React app that allows players to create, track, and maintain characters & campaigns using MongoDB and a Node.js backend. Using Socket.io, users can participate in live campaigns with other users. We wanted to put online many of the D&D's offline elements - things like character creation, stat tracking, equipment tracking, campaign notes, campaign progress, and DM campaign variables.",
         "repoURL": "https://github.com/Dungeons-Developers/DnD-React",
         "deployedURL": "https://www.dungeonscribe.io/"
     },
